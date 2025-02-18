@@ -1,0 +1,20 @@
+class Book:
+    def __init__(Latorre, title, author, year_published):
+        Latorre.title = title
+        Latorre.author = author
+        Latorre.year_published = year_published
+
+    def describe(Latorre):
+        print(f"Title: {Latorre.title}")
+        print(f"Author: {Latorre.author}")
+        print(f"Year Published: {Latorre.year_published}")
+
+book1 = Book("Josepha and Jommel love story", "Josmmel Torres", 2019)
+book2 = Book("My College Life", "Josepha Latorre", 2023)
+book3 = Book("The Fav. Food", "Jommel Corrales", 2004)
+
+book1.describe()
+print()
+book2.describe()
+print()
+book3.describe()
